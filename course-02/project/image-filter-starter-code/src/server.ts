@@ -17,8 +17,6 @@ import {
  // Use the body parser middleware for post requests
  app.use(bodyParser.json());
 
- var urlExists = require('url-exists');
-
  // @TODO1 IMPLEMENT A RESTFUL ENDPOINT
  // GET /filteredimage?image_url={{URL}}
  // endpoint to filter an image from a public url.
